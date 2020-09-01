@@ -9,7 +9,7 @@ class BankAccount
   end
   
   def deposit(money)
-    
+    @balance += money
   
   def display_balance
     return "Your balance is $#{name.balance}."
