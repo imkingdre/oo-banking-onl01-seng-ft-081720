@@ -5,6 +5,10 @@ class BankAccount
     @name = name
     @balance = 1000
     @status = "open"
-  end 
+  end
+  
+  def display_balance
+    return "Your balance is $#{name.balance}"
+  end
 
 end
